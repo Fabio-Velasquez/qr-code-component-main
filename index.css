@@ -1,0 +1,51 @@
+body {
+    background: #dfdfdf;
+}
+
+#section {
+}
+
+#card {
+    background: #FFFFFF;
+
+    width: 16%;
+    margin: 2em auto ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+}
+
+#QrImgBox {
+    width: 88%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+#QrImgBox > img {
+    width: 100%;
+    align-self: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#QrTextHeaderBox {
+    color:#1F314F;
+    text-align: center;
+    font-family: "system-ui";
+    font-weight: bold;
+    font-size: 0.6em;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#QrTextInstructionBox {
+    color:#68778D;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: "system-ui";
+}
